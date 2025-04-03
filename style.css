@@ -174,7 +174,6 @@ h3 {
 .project-card {
   background: var(--teal);
   box-shadow: 0 0 8px rgba(0,0,0,0.1);
-  border-radius: 6px;
   overflow: hidden;
   transition: transform 0.2s ease;
 }
@@ -184,13 +183,13 @@ h3 {
 }
 
 .project-card img {
-  width: 100%;
+  width: 95%;
   height: auto;
   display: block;
 }
 
 .project-card h3 {
-  padding: 1rem;
+  padding: 0.5rem;
   font-size: 1.2rem;
   color: white;
 }
@@ -217,7 +216,7 @@ h3 {
 
 .vertical-line {
   width: 2px;
-  height: 80%;
+  height: 200px;
   background-color: var(--darkblue);
   color: var(--darkblue);
   margin: 0 1rem;
