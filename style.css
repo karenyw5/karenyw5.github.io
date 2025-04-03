@@ -215,7 +215,7 @@ h3 {
 .vertical-line {
   width: 2px;
   height: 80%;
-  background-color: #ccc;
+  background-color: var(--darkblue);
   margin: 0 1rem;
 }
 
