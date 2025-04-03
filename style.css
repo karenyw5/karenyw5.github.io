@@ -3,18 +3,20 @@
   --teal: #45838a;
   --paleteal: #98D2C0;
   --yellow: #F6F8D5;
+  --gray: #dddddd;
 }
 
 body {
   margin: 0;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: Georgia, serif;
   background-color: var(white);
   color: var(black);
 }
 
 .navbar {
+  font-family: Verdana, sans-serif;
   background: var(--darkblue);
-  color: var(white);
+  color: white;
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -28,7 +30,7 @@ body {
 }
 
 .navbar a {
-  color: var(white);
+  color: white;
   text-decoration: none;
   font-weight: bold;
 }
@@ -65,7 +67,7 @@ body {
 
 .about-details {
   margin-top: 3rem;
-  background: var(--paleteal);
+  background: var(--gray);
   padding: 2rem;
   border-radius: 10px;
 }
