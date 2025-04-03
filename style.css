@@ -3,7 +3,7 @@
   --teal: #45838a;
   --paleteal: #98D2C0;
   --yellow: #F6F8D5;
-  --gray: #dddddd;
+  --gray: #e2e2e2;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 }
 
 .navbar {
-  font-family: Verdana, sans-serif;
+  font-family: 'Geneva', sans-serif;
   background: var(--darkblue);
   color: white;
   padding: 1rem 2rem;
@@ -68,8 +68,9 @@ body {
 .about-details {
   margin-top: 3rem;
   background: var(--gray);
+  width: 100vw;
   padding: 2rem;
-  border-radius: 10px;
+  border-radius: 0;
 }
 
 .about-details h3 {
