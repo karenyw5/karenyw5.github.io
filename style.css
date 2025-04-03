@@ -175,6 +175,7 @@ h3 {
   background: var(--teal);
   box-shadow: 0 0 8px rgba(0,0,0,0.1);
   overflow: hidden;
+  border-radius: 6px;
   transition: transform 0.2s ease;
 }
 
@@ -183,7 +184,9 @@ h3 {
 }
 
 .project-card img {
-  width: 95%;
+  width: 100%;
+  padding: 0.5rem;
+  align-items: center;
   height: auto;
   display: block;
 }
