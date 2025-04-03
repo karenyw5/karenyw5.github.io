@@ -28,7 +28,7 @@ body {
 }
 
 .navbar a {
-  color: var(--white);
+  color: var(white);
   text-decoration: none;
   font-weight: bold;
 }
