@@ -215,6 +215,7 @@ h3 {
 
 .project-text {
   flex: 1;
+  line-height: 1.6;
 }
 
 .project-text h2 {
@@ -238,7 +239,7 @@ h3 {
 .project-description {
   flex: 1;
   max-width: 600px;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .project-embed {
