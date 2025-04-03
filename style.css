@@ -37,6 +37,17 @@ h3 {
   gap: 2rem;
 }
 
+.navbar-left h1 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .navbar ul {
   list-style: none;
   display: flex;
@@ -219,7 +230,7 @@ h3 {
 
 .vertical-line {
   width: 2px;
-  height: 200px;
+  height: 500px;
   background-color: var(--darkblue);
   color: var(--darkblue);
   margin: 0 1rem;
