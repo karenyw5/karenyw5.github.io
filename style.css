@@ -223,7 +223,7 @@ h3 {
 }
 
 .project-text p {
-  color: #555;
+  color: var(--teal);
   font-style: italic;
 }
 
