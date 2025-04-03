@@ -198,6 +198,59 @@ h3 {
   color: #777;
 }
 
+/* Project Page Layout */
+.project-page {
+  padding: 2rem;
+}
+
+.project-hero {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background-color: #f4f4f4;
+  padding: 2rem;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.project-hero img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-text {
+  flex: 1;
+}
+
+.project-text h1 {
+  color: var(--darkblue);
+  margin-bottom: 0.5rem;
+}
+
+.project-text p {
+  color: #555;
+  font-style: italic;
+}
+
+.project-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background-color: white;
+  padding: 2rem;
+}
+
+.project-description {
+  flex: 1;
+  max-width: 600px;
+}
+
+.project-embed {
+  flex: 1;
+  min-width: 300px;
+}
+
 footer {
   background: var(--darkblue);
   text-align: center;
