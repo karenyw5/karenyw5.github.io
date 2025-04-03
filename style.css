@@ -111,14 +111,23 @@ h3 {
 }
 
 .contact-img {
-  width: 200px;
-  height: auto;
-  border-radius: 8px;
+  width: auto;
+  height: 250px;
+}
+
+.contact h3 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
 }
 
 footer {
-  background: var(--teal);
+  background: var(--darkblue);
   text-align: center;
   padding: 2rem;
-  color: var(--yellow);
+  color: var(--gray);
 }
