@@ -1,20 +1,20 @@
 :root {
-  --dark-blue: #0F1C2E;
-  --teal: #3CA6A6;
-  --pale-teal: #A8DADC;
-  --white: #F1FAEE;
-  --gray: #A0AEC0;
+  --darkblue: #194b71;
+  --teal: #45838a;
+  --paleteal: #98D2C0;
+  --white: #ffffff;
+  --yellow: #F6F8D5;
 }
 
 body {
   margin: 0;
   font-family: 'Helvetica Neue', sans-serif;
-  background-color: var(--dark-blue);
+  background-color: var(--white);
   color: var(--white);
 }
 
 .navbar {
-  background: var(--teal);
+  background: var(--darkblue);
   color: var(--white);
   padding: 1rem 2rem;
   display: flex;
@@ -40,7 +40,8 @@ body {
 }
 
 footer {
+  background: var(--paleteal);
   text-align: center;
   padding: 2rem;
-  color: var(--gray);
+  color: var(--yellow);
 }
