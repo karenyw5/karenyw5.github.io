@@ -156,19 +156,12 @@ h3 {
 .portfolio-text {
   flex: 1;
   line-height: 1.6;
-  max-width: 600px;
 }
 
 .portfolio-header h2 {
   font-size: 2rem;
   line-height: 1.6;
   color: var(--darkblue);
-}
-
-.portfolio-image img {
-  width: 300px;
-  height: auto;
-  border-radius: 8px;
 }
 
 .project-grid {
