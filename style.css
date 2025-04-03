@@ -87,12 +87,20 @@ h3 {
 
 .about-details h3 {
   color: var(--darkblue);
-  margin-top: 1rem;
+  margin: 1rem;
+  font-size: 1.25rem;
 }
 
-.about-contact {
-  color:var(--paleteal);
+.contact {
+  background-color: var(--paleteal);
+  color: white;
   margin: 3rem;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.contact h3 {
+  color: white;
 }
 
 footer {
