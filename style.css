@@ -126,6 +126,23 @@ h3 {
   margin: 0.5rem 0;
 }
 
+.contact-icons {
+  margin-top: 1rem;
+}
+
+.contact-icons a {
+  color: var(--teal);
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-icons a:hover {
+  transform: scale(1.3);
+  color: var(--paleteal);
+}
+
 /* Portfolio section */
 .portfolio-header {
   display: flex;
