@@ -212,6 +212,13 @@ h3 {
   height: auto;
 }
 
+.vertical-line {
+  width: 2px;
+  height: 80%;
+  background-color: #ccc;
+  margin: 0 1rem;
+}
+
 .project-text {
   flex: 1;
   line-height: 1.6;
