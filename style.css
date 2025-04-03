@@ -45,31 +45,44 @@ footer {
   color: var(--yellow);
 }
 
-.about-container {
+.about-page {
   padding: 2rem;
-  background: var(--paleteal);
+  background: var(white);
   color: var(--darkblue);
 }
 
-.about-main {
-  display: flex;
-  gap: 2rem;
-  align-items: center;
-  margin: 2rem 0;
+.about-me h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
 
-.about-photo img {
-  width: 200px;
-  border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+.about-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-img {
+  width: 280px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 .about-text {
   max-width: 600px;
+  line-height: 1.6;
 }
 
-.about-extras ul {
-  list-style: none;
-  padding: 0;
-  line-height: 2;
+.about-details {
+  margin-top: 3rem;
+  background: #f4f4f4;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.about-details h3 {
+  color: #6b2f7f;
+  margin-top: 1rem;
 }
