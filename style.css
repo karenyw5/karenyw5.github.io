@@ -2,20 +2,19 @@
   --darkblue: #194b71;
   --teal: #45838a;
   --paleteal: #98D2C0;
-  --white: #ffffff;
   --yellow: #F6F8D5;
 }
 
 body {
   margin: 0;
   font-family: 'Helvetica Neue', sans-serif;
-  background-color: var(--white);
-  color: var(--white);
+  background-color: var(white);
+  color: var(black);
 }
 
 .navbar {
   background: var(--darkblue);
-  color: var(--white);
+  color: var(white);
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
