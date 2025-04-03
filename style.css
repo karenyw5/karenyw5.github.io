@@ -13,8 +13,21 @@ body {
   color: black;
 }
 
+h2 {
+  font-size: 2rem;
+  font-family: 'Gill Sans', sans-serif;
+  color: var(--darkblue);
+  margin-bottom: 1rem;
+}
+h3 {
+  font-size: 1.5rem;
+  font-family: 'Gill Sans', sans-serif;
+  color: var(--darkblue);
+  margin-top: 2rem;
+}
+
 .navbar {
-  font-family: 'Geneva', sans-serif;
+  font-family: 'Gill Sans', sans-serif;
   background: var(--darkblue);
   color: white;
   padding: 1rem 2rem;
@@ -68,7 +81,6 @@ body {
 .about-details {
   margin-top: 3rem;
   background: var(--gray);
-  width: 100vw;
   padding: 2rem;
   border-radius: 0;
 }
