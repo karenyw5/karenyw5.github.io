@@ -33,34 +33,22 @@ body {
   font-weight: bold;
 }
 
-.hero {
-  text-align: center;
-  padding: 4rem 2rem;
-}
-
-footer {
-  background: var(--paleteal);
-  text-align: center;
-  padding: 2rem;
-  color: var(--yellow);
-}
-
 .about-page {
   padding: 2rem;
-  background: var(white);
-  color: var(--darkblue);
 }
 
 .about-me h2 {
   text-align: center;
-  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--darkblue);
 }
 
 .about-flex {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
 
@@ -77,12 +65,19 @@ footer {
 
 .about-details {
   margin-top: 3rem;
-  background: #f4f4f4;
+  background: var(--paleteal);
   padding: 2rem;
   border-radius: 10px;
 }
 
 .about-details h3 {
-  color: #6b2f7f;
+  color: var(--darkblue);
   margin-top: 1rem;
+}
+
+footer {
+  background: var(--paleteal);
+  text-align: center;
+  padding: 2rem;
+  color: var(--yellow);
 }
