@@ -3,7 +3,7 @@
   --teal: #45838a;
   --paleteal: #98D2C0;
   --yellow: #F6F8D5;
-  --gray: #e2e2e2;
+  --gray: #ddf3ec;
 }
 
 body {
@@ -94,18 +94,10 @@ h3 {
 }
 
 .contact {
-  background-color: var(--paleteal);
-  color: white;
-  text-align: center;
+  background-color: white;
+  text-align: left;
   padding: 3rem 1rem;
   font-size: 1rem;
-
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
 }
 
 .contact h3 {
