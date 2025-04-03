@@ -86,7 +86,7 @@ h3 {
 }
 
 .about-details h3 {
-  color: var(--darkblue);
+  color: var(--teal);
   margin: 1rem;
   font-size: 1.25rem;
 }
@@ -107,11 +107,12 @@ h3 {
 }
 
 .contact-text {
+  max-width: 700 px;
   flex: 1;
 }
 
 .contact-img {
-  width: 300px;
+  width: 400px;
   height: auto;
 }
 
