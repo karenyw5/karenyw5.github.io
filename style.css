@@ -45,3 +45,32 @@ footer {
   padding: 2rem;
   color: var(--yellow);
 }
+
+.about-container {
+  padding: 2rem;
+  background: var(--paleteal);
+  color: var(--darkblue);
+}
+
+.about-main {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.about-photo img {
+  width: 200px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.about-text {
+  max-width: 600px;
+}
+
+.about-extras ul {
+  list-style: none;
+  padding: 0;
+  line-height: 2;
+}
