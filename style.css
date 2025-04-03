@@ -3,7 +3,7 @@
   --teal: #45838a;
   --paleteal: #98D2C0;
   --yellow: #F6F8D5;
-  --gray: #e6e8eb;
+  --gray: #e8e8e8;
 }
 
 body {
@@ -176,7 +176,7 @@ h3 {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
   padding: 2rem;
-  background: #e8e8e8;
+  background: var(--gray);
 }
 
 .project-card {
