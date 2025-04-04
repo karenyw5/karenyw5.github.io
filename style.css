@@ -13,6 +13,15 @@ body {
   color: black;
 }
 
+h1 {
+  font-size: 2.5rem;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: var(--darkblue);
+  margin-top: 2rem;
+  text-align: center;
+}
+
+
 h2 {
   font-size: 2rem;
   font-family: 'Trebuchet MS', sans-serif;
@@ -38,15 +47,36 @@ h3 {
 }
 
 .navbar-left h1 {
-  text-align: left;
+  color: white;
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .navbar-center {
+  gap: 2rem;
+}
+
+.navbar-center a{
+  color:white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.navbar-center a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: white;
+  width: 0%;
+  transition: width 0.3s ease;
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  bottom: -4px;
+  left: 0;
+}
+
+.navbar-center a:hover::after {
+  width: 100%;
 }
 
 .navbar ul {
@@ -205,6 +235,7 @@ h3 {
 .project-card h3 {
   padding: 0.5rem;
   margin-top: 0;
+  margin-bottom: 0.1;
   font-size: 1.2rem;
   color: white;
 }
@@ -231,7 +262,7 @@ h3 {
 
 .vertical-line {
   width: 2px;
-  height: 500px;
+  height: 400px;
   background-color: var(--darkblue);
   color: var(--darkblue);
   margin: 0 1rem;
@@ -250,6 +281,8 @@ h3 {
 .project-text p {
   color: var(--teal);
   font-style: italic;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 .project-content {
