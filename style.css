@@ -201,7 +201,7 @@ h3 {
 
 .portfolio-header h2 {
   font-size: 2rem;
-  line-height: 1.6;
+  line-height: 1.4;
   color: var(--darkblue);
 }
 
@@ -262,7 +262,7 @@ h3 {
 
 .vertical-line {
   width: 2px;
-  height: 400px;
+  align-self: stretch;
   background-color: var(--darkblue);
   color: var(--darkblue);
   margin: 0 1rem;
