@@ -17,7 +17,7 @@ h1 {
   font-size: 2.5rem;
   font-family: 'Trebuchet MS', sans-serif;
   color: var(--darkblue);
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   text-align: center;
 }
 
@@ -100,7 +100,7 @@ h3 {
 .about-me h2 {
   text-align: center;
   font-size: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   color: var(--darkblue);
 }
 
@@ -108,7 +108,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
 }
 
@@ -252,7 +252,7 @@ h3 {
   background-color: var(--gray);
   padding: 2rem;
   align-items: center;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .project-hero img {
@@ -275,6 +275,7 @@ h3 {
 
 .project-text h2 {
   color: var(--darkblue);
+  margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
@@ -302,6 +303,32 @@ h3 {
 .project-embed {
   flex: 1;
   min-width: 300px;
+}
+
+.project-actions.vertical {
+  display:flex;
+  flex-direction:column;
+  gap:.6rem;
+  margin-top:.6rem;
+}
+
+.btn {
+  display:block;
+  text-decoration:none;
+  font-weight:700;text-align:center;
+  padding:.75rem 1rem;
+}
+
+.btn-gray {
+  background: var(--gray);
+  color: var(--darkblue);
+  transition: color 0.3s ease;
+}
+
+.btn-gray:hover{
+  background:#d9d9d9;
+  border-color:#bdbdbd;
+  transform: scale(1.03);
 }
 
 footer {
