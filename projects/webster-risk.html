@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karen Wang | GIS Portfolio</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="navbar-left">
+        <h1>Karen Wang | GIS Portfolio</h1>
+      </div>
+      <ul class="navbar-center">
+        <li><a href="/index.html">ABOUT</a></li>
+        <li><a href="/portfolio.html">PORTFOLIO</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="project-page">
+    <div class="project-hero">
+      <img src="../images/webster-risk.jpg" alt="Webster Risk Analysis">
+      <div class="vertical-line"></div>
+      <div class="project-text">
+        <h1>Webster Township Water Contamination Risk Analysis</h1>
+        <p><i>Karen Wang</i></p>
+      </div>
+    </div>
+
+    <div class="project-content">
+      <div class="project-description">
+        <h2>Description</h2>
+        <p>
+    This map shows a water contamination risk index for Webster Township that I built by converting three different inputs into comparable raster grids and combining them in ArcGIS Pro. First, I joined the soils layer to its lookup table to get percent sand values, 
+    then used Feature to Raster to make a soil texture grid, since sandier soils allow faster percolation. Next, I created a proximity-to-water grid by rasterizing streams and water/wetland polygons, reclassifying them to remove NoData, merging them with Raster Calculator
+     and running Euclidean Distance to measure how far each cell is from surface water. I also derived an elevation-variability grid from the DEM using Focal Statistics to approximate slope, because steeper areas can move contaminants laterally. 
+        </p>
+        <p>
+     After that, I stretched all three rasters to a 0-100 scale and inverted the distance-to-water layer so that cells closer to water had higher risk values. Finally, I used Raster Calculator to create a weighted overlay, which I reclassified into low, moderate, 
+     and high risk so areas most vulnerable to surface and groundwater contamination are easy to see.
+        </p>
+      </div>
+      <div class="project-embed">
+        <iframe src="../pdfs/webster-risk.pdf" width="100%" height="500px"></iframe>
+      </div>
+    </div>
+  </main>
+
+<footer>
+    <p>&copy; Copyright 2025, Karen Wang</p>
+  </footer>
+</body>
+</html>
