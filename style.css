@@ -302,7 +302,25 @@ h3 {
 
 .project-embed {
   flex: 1;
+  flex-direction: column;
   min-width: 300px;
+}
+
+.final-maps{
+  display:flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.final-maps img{
+  width:100%;
+  height:auto;
+  display:block;
+  border-radius: 10px;
+}
+.final-maps figure{ margin:0; }
+
+@media (min-width: 900px){
+  .final-maps{ grid-template-columns: 1fr 1fr; }
 }
 
 .project-actions.vertical {
