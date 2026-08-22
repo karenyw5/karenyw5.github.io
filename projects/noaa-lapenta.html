@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karen Wang | GIS Portfolio</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="navbar-left">
+        <h1>Karen Wang | GIS Portfolio</h1>
+      </div>
+      <ul class="navbar-center">
+        <li><a href="/index.html">ABOUT</a></li>
+        <li><a href="/portfolio.html">PORTFOLIO</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="project-page">
+    <div class="project-hero">
+      <img src="../images/noaa-lapenta-thumb.jpg" alt="NOAA Lapenta Project Thumbnail">
+      <div class="vertical-line"></div>
+      <div class="project-text">
+        <h1>NOAA Lapenta Project: Comparing Flood Indicators Using Stationary and Nonstationary Extreme Water Level Analysis Across U.S. Coastal Regions</h1>
+        <p><i>Karen Wang</i></p>
+      </div>
+    </div>
+
+    <div class="project-content">
+      <div class="project-description">
+        <h2>Abstract</h2>
+        <p>Nearly 129 million people, approximately 40% of the U.S. population, live on the coast, where extreme water levels pose a growing flood risk. 
+            Standard flood risk assessments often assume these extremes are statistically stationary over time. However, this assumption may misrepresent risk, 
+            as sea level rise and shifting climate patterns can alter the frequency and severity of extreme events. Identifying where and how extreme sea levels 
+            are changing is critical for coastal planning, infrastructure design, and hazard mitigation. Nonstationary extreme value models address this limitation 
+            by allowing model parameters to vary with time. Comparing stationary and nonstationary approaches can improve the robustness of coastal flood indicators 
+            and help reveal the drivers of these changes. This project compares stationary and nonstationary generalized extreme value (GEV) models at nine U.S. 
+            water level stations across multiple coastal regions. Stationary analysis used annual maxima from hourly observations, while nonstationary analysis used 
+            monthly maxima, with long-term trend, seasonality, and nodal cycle in the location parameter and climate index covariates in location and scale. Model 
+            outputs were used to compare return levels, quantify driver contributions, and reinterpret the ten highest observed water levels. Time-varying return 
+            periods were evaluated for 1992, the midpoint of the 1983-2001 National Tidal Datum Epoch, and 2023. Preliminary results show that differences vary by 
+            station and return period, with nonstationary models producing higher estimates for frequent extremes (2-year events) and stationary models producing 
+            higher estimates for rare extremes (50- and 100-year events). Dominant drivers also vary regionally, with long-term trend as the most influential at 
+            most Atlantic and Gulf stations and seasonality at most Pacific stations. The nonstationary framework showed that many of the largest historically 
+            observed water levels were substantially more probable under 2023 conditions than under 1992 conditions due to sea level rise. These results indicate 
+            that accounting for time-varying processes changes, for both return level estimates and the interpretation of past extreme events, highlights the 
+            importance of nonstationarity to better understand evolving coastal flood risk.</p>
+
+      </div>
+      <div class="project-embed">
+        <iframe src="../pdfs/noaa-lapenta.pdf" width="100%" height="500px"></iframe>
+      </div>
+    </div>
+  </main>
+
+<footer>
+    <p>&copy; Copyright 2025, Karen Wang</p>
+  </footer>
+</body>
+</html>
