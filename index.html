@@ -3,80 +3,119 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Karen Wang | GIS Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-</head>
+  <title>Karen Wang Portfolio</title>
+   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 <body>
-  <header>
-    <nav class="navbar">
-      <div class="navbar-left">
-        <h1>Karen Wang | GIS Portfolio</h1>
-      </div>
-      <ul class="navbar-center">
-        <li><a href="/index.html">ABOUT</a></li>
-        <li><a href="/portfolio.html">PORTFOLIO</a></li>
+  <header class="home-header">
+    <nav class="home-nav" aria-label="Main navigation">
+      <a class="home-brand" href="index.html" aria-label="Karen Wang, About page">
+        <span class="home-brand-name">Karen Wang</span>
+        <span class="home-brand-tag">GIS &amp; Remote Sensing</span>
+      </a>
+      <ul class="home-nav-links">
+        <li><a href="index.html" aria-current="page">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a class="home-nav-contact" href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <main class="about-page">
-    <!-- About Me Section -->
-    <div class="about-me">
-      <h2>ABOUT ME</h2>
-      <div class="about-flex">
-        <img src="images/headshot.jpeg" alt="Karen Wang headshot" class="about-headshot">
-        <div class="about-text">
-          <p>Welcome! I’m Karen Wang, a Master’s student at the University of Michigan School of Environment and Sustainability specializing in Geospatial 
-            Data Science and Ecosystem Sciences & Management. I’m interested in addressing environmental issues with data-driven solutions, combining GIS 
-            and remote sensing applications with clear, impactful data visualization and cartographic design, with a particular interest in oceanography, 
-            flood mitigation, and water resources.</p>
-          <p>I enjoy working with spatial and environmental data to study climate change, flooding, natural hazards, and conservation. Most recently, 
-            through the NOAA National Ocean Service William M. Lapenta Internship, I analyzed extreme water levels using Python, time-series analysis, 
-            and statistical models to better understand changing coastal flood risk. Previously, through NASA DEVELOP, I integrated satellite, census, 
-            and ancillary data to create flood-risk and social-vulnerability models, helping identify priority areas for wetland conservation in South Carolina.</p>
+<main class="home-page">
+    <!--Landsat imagery banner and headshot-->
+    <section class="home-hero" aria-labelledby="home-hero-title">
+      <div class="home-banner-wrap">
+        <img src="images/WebsiteBanner.gif" alt="Karen spelled out in satellite images of rivers, coastlines, and landscapes" class="home-banner" fetchpriority="high" />
+      </div>
+
+      <div class="home-container home-hero-layout">
+        <div class="home-hero-content">
+          <h1 id="home-hero-title" class="home-hero-title">Welcome!<span class="home-title-dot">!</span></h1>
+          <p class="home-hero-subtitle">GIS &amp; Remote Sensing <span aria-hidden="true">·</span> Cartography <span aria-hidden="true">·</span> Environmental Research</p>
+          <p class="home-hero-description">
+            I'm Karen Wang, a Master's student at the University of Michigan studying Geospatial Data Science and Ecosystem Science & Management. 
+            I'm passionate about using GIS, remote sensing, and data visualization to better understand environmental challenges.</p>
+          <div class="home-actions">
+            <a class="home-button home-button-primary" href="portfolio.html">
+              View GIS Projects <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+            <a class="home-button home-button-outline" href="mailto:karenyw@umich.edu">
+              <i class="fa-regular fa-envelope" aria-hidden="true"></i> Get in Touch
+            </a>
+          </div>
+          <div class="home-social-links" aria-label="Social links">
+            <a href="https://www.linkedin.com/in/karenwangumich/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://github.com/karenyw5" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+            <a href="mailto:karenyw@umich.edu" aria-label="Email Karen"><i class="fa-regular fa-envelope" aria-hidden="true"></i></a>
+          </div>
+        </div>
+         <div class="home-portrait-wrap">
+          <img src="images/headshot.jpeg" alt="Portrait of Karen Wang" class="home-headshot" />
+        </div>       
+      </div>
+    </section>
+
+    <!-- About me -->
+    <section class="home-section" id="about" aria-labelledby="about-heading">
+      <div class="home-container home-narrow">
+        <p class="home-section-label">About me</p>
+        <h2 id="about-heading">A little more about me</h2>
+        <div class="home-accent-rule" aria-hidden="true"></div>
+        <div class="home-bio">
+          <p>I'm a Master’s student at the University of Michigan School of Environment and Sustainability specializing in Geospatial Data Science and Ecosystem Sciences &amp; Management. I’m interested in addressing environmental issues with data-driven solutions, combining GIS and remote sensing with clear, impactful data visualization and cartographic design, with particular interests in oceanography, flood mitigation, and water resources.</p>
+          <p>I enjoy working with spatial and environmental data to study climate change, flooding, natural hazards, and conservation. Most recently, through the NOAA National Ocean Service William M. Lapenta Internship, I analyzed extreme water levels using Python, time-series analysis, and statistical models to better understand changing coastal flood risk. Previously, through NASA DEVELOP, I integrated satellite, census, and ancillary data to create flood-risk and social-vulnerability models, helping identify priority areas for wetland conservation in South Carolina.</p>
           <p>I also enjoy figure skating, drawing and painting, and birdwatching!</p>
         </div>
       </div>
-    </div>
-  
-    <!-- Details Section -->
-    <div class="about-details">
-      <h3>Research Interests</h3>
-      <p> GIS, Remote Sensing, Climate Change, Coastal Oceanography, Disaster Response, Conservation Ecology</p>
-  
-      <h3>Technical Skills</h3>
-      <p>Esri ArcGIS Pro, QGIS, Google Earth Engine, Microsoft Suite, Adobe Photoshop & Illustrator</p>
-      <h3>Programming Languages</h3>
-      <p>R, Python, C++, HTML/CSS, Github</p>
-    </div>
-  
-<!-- Contact Section -->
-<div class="contact">
-  <div class="contact-content">
-    <div class="contact-text">
-      <h3>CONTACT ME</h3>
-      <p>Feel free to contact me through email or LinkedIn!</p>
-      <p>Email: karenyw@umich.edu</p>
+    </section>
 
-      <!-- Social icons -->
-      <div class="contact-icons">
-        <a href="https://www.linkedin.com/in/karenwangumich/" target="_blank">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="https://github.com/karenyw5" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
+    <!-- Interests and Skills -->
+    <section class="home-section home-skills" aria-label="Research interests and skills">
+      <div class="home-container">
+        <div class="home-skills-grid">
+          <div class="home-skill">
+            <h3>Research Interests</h3>
+            <p>GIS, Remote Sensing, Climate Change, Coastal Oceanography, Disaster Response, Conservation Ecology</p>
+          </div>
+          <div class="home-skill">
+            <h3>Technical Skills</h3>
+            <p>Esri ArcGIS Pro, QGIS, Google Earth Engine, Microsoft Suite, Adobe Photoshop &amp; Illustrator</p>
+          </div>
+          <div class="home-skill">
+            <h3>Programming Languages</h3>
+            <p>R, Python, C++, HTML/CSS, GitHub</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <img src="images/poster.jpg" alt="Poster picture" class="contact-img">
-  </div>
-</div>
+    </section>
 
+    <section class="home-section home-contact" id="contact" aria-labelledby="contact-heading">
+      <div class="home-container home-contact-grid">
+        <div>
+          <p class="home-section-label">Say hello</p>
+          <h2 id="contact-heading">Contact me</h2>
+          <div class="home-accent-rule" aria-hidden="true"></div>
+          <p>Feel free to contact me through email or LinkedIn!</p>
+          <a class="home-email" href="mailto:karenyw@umich.edu"><i class="fa-regular fa-envelope" aria-hidden="true"></i> karenyw@umich.edu</a>
+        </div>
+        <img src="images/poster.jpg" alt="Karen presenting a research poster" class="home-contact-image" loading="lazy" />
+      </div>
+    </section>
   </main>
 
-  <footer>
-    <p>&copy; Copyright 2025, Karen Wang</p>
+  <footer class="home-footer">
+    <div class="home-footer-inner">
+      <div class="home-footer-rule" aria-hidden="true"></div>
+      <div class="home-footer-social" aria-label="Connect with Karen">
+        <a href="mailto:karenyw@umich.edu" aria-label="Email Karen"><i class="fa-regular fa-envelope" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/karenwangumich/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+        <a href="https://github.com/karenyw5" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+      </div>
+      <p>&copy; 2026 Karen Wang</p>
+    </div>
   </footer>
 </body>
 </html>

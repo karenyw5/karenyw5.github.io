@@ -3,113 +3,93 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Karen Wang | GIS Portfolio</title>
+  <meta name="description" content="GIS and remote sensing projects by Karen Wang: coastal flooding, wetlands, land cover, natural hazards, and cartographic design." />
+  <title>Projects &amp; Map Layouts | Karen Wang</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
-<body>
 
-  <header>
-    <nav class="navbar">
-        <div class="navbar-left">
-            <h1>Karen Wang | GIS Portfolio</h1>
-        </div>
-        <ul class="navbar-center">
-          <li><a href="/index.html">ABOUT</a></li>
-          <li><a href="/portfolio.html">PORTFOLIO</a></li>
-        </ul>
-      </nav>
+<body>
+  <header class="home-header">
+    <nav class="home-nav" aria-label="Main navigation">
+      <a class="home-brand" href="index.html" aria-label="Karen Wang, About page">
+        <span class="home-brand-name">Karen Wang</span>
+        <span class="home-brand-tag">GIS &amp; Remote Sensing</span>
+      </a>
+      <ul class="home-nav-links">
+        <li><a href="index.html">About</a></li>
+        <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
+        <li><a class="home-nav-contact" href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <!-- Intro Section -->
-  <section class="portfolio-header">
-    <div class="portfolio-text">
-      <h2>PROJECTS & MAP LAYOUTS</h2>
-      <p>A collection of technical and research projects I’ve created or contributed to throughout 
-        my academic career, highlighting skills in data analysis, programming, visualization, spatial analysis, 
-        and scientific communication. Click on each card to learn more about the project!</p>
-      <!-- <p>Click this [Google Drive Link] to take a closer look at my layouts and projects!</p> -->
-    </div>
-  </section>
-
-  <!-- Project Grid -->
-  <section class="project-grid">
-
-    <div class="project-card">
-      <a href="projects/coastalsc-water-resources.html">
-        <img src="images/coastalsc-water-resources.jpeg" alt="Coastal SC Water Resources Project">
-        <h3>NASA DEVELOP Project: South Carolina Water Resources</h3>
-      </a>
-    </div>
-
-    <div class="project-card">
-      <a href="projects/noaa-lapenta.html">
-        <img src="images/noaa-lapenta-thumb.jpg" alt="NOAA Lapenta Project">
-        <h3>NOAA Lapenta Project: Comparing Flood Indicators</h3>
-      </a>
-    </div>
-
-    <div class="project-card">
-      <a href="projects/final-project-moore.html">
-        <img src="images/moore-thumb.jpg" alt="Final Project Thumbnail">
-        <h3>GIS Final Project: Exploring Impacts of the 2013 Moore Tornado</h3>
-      </a>
-    </div>
-
-    <div class="project-card">
-      <a href="projects/millcreek-landuse.html">
-        <img src="images/millcreek-landuse-thumb.png" alt="Mill Creek Land Use">
-        <h3>Mill Creek Watershed 10-Year Land Cover Change Analysis</h3>
-      </a>
-    </div>
-
-    
-    <div class="project-card">
-      <a href="projects/webster-risk.html">
-        <img src="images/webster-risk.jpg" alt="Webster Risk">
-        <h3>Webster Township Water Contamination Risk Analysis</h3>
-      </a>
-    </div>
-
-    <div class="project-card">
-      <a href="projects/edenville-dam.html">
-        <img src="images/edenville-dam-thumb.jpg" alt="Edenville Dam Thumbnail">
-        <h3>Elevation Change After the Edenville Dam Failure</h3>
-      </a>
-    </div>
-
-    <div class="project-card">
-        <a href="projects/capecod-slr.html">
-          <img src="images/capecod-slr-thumb.jpg" alt="Cape Cod SLR">
-          <h3>Sea Level Rise Change by 2100 in Cape Cod</h3>
-        </a>
+  <main>
+    <section class="portfolio-header" aria-labelledby="portfolio-heading">
+      <div class="site-container portfolio-header-inner">
+        <p class="eyebrow">Portfolio</p>
+        <h1 id="portfolio-heading">Projects &amp; map layouts</h1>
+        <p>A collection of technical and research projects I’ve created or contributed to throughout my academic career, highlighting skills in data analysis, programming, visualization, spatial analysis, and scientific communication. Select a project to explore its methods, maps, and deliverables.</p>
       </div>
- 
-      <div class="project-card">
-        <a href="projects/columbiana-sites.html">
-          <img src="images/columbiana-sites-thumb.jpg" alt="Columbiana Sites">
-          <h3>Most vs. Least Suitable Ecological Sites in Columbiana</h3>
-        </a>
+    </section>
+
+    <section class="portfolio-gallery" aria-label="GIS and mapping projects">
+      <div class="project-grid">
+        <article class="project-card"><a href="projects/coastalsc-water-resources.html">
+          <div class="project-card-image"><img src="images/coastalsc-water-resources.jpeg" alt="NASA DEVELOP South Carolina flood risk and wetlands project" loading="lazy"><span class="project-card-arrow" aria-hidden="true"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+          <div class="project-card-body"><h2>NASA DEVELOP Project: South Carolina Water Resources</h2><p>Mapping isolated wetlands, flood risk, and social vulnerability across three South Carolina counties.</p><span class="project-card-link">View project <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span></div>
+        </a></article>
+
+        <article class="project-card"><a href="projects/noaa-lapenta.html">
+          <div class="project-card-image"><img src="images/noaa-lapenta-thumb.jpg" alt="NOAA extreme coastal water level analysis" loading="lazy"><span class="project-card-arrow" aria-hidden="true"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+          <div class="project-card-body"><h2>NOAA Lapenta Project: Comparing Flood Indicators</h2><p>Comparing stationary and nonstationary extreme value models of coastal water levels at nine U.S. stations.</p><span class="project-card-link">View project <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span></div>
+        </a></article>
+
+        <article class="project-card"><a href="projects/final-project-moore.html">
+          <div class="project-card-image"><img src="images/moore-thumb.jpg" alt="Satellite map of Moore Oklahoma tornado impacts" loading="lazy"><span class="project-card-arrow" aria-hidden="true"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+          <div class="project-card-body"><h2>Exploring Impacts of the 2013 Moore Tornado</h2><p>Satellite imagery, radar, and census analysis of the 2013 EF5 tornado in Moore, Oklahoma.</p><span class="project-card-link">View project <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span></div>
+        </a></article>
+
+        <article class="project-card"><a href="projects/millcreek-landuse.html">
+          <div class="project-card-image"><img src="images/millcreek-landuse-thumb.png" alt="Mill Creek Watershed land cover change map" loading="lazy"><span class="project-card-arrow" aria-hidden="true"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+          <div class="project-card-body"><h2>Mill Creek Watershed 10-Year Land Cover Change</h2><p>Land cover change between 2001 and 2011 across the watershed, with acreage and percent change.</p><span class="project-card-link">View project <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span></div>
+        </a></article>
+
+        <article class="project-card"><a href="projects/webster-risk.html">
+          <div class="project-card-image"><img src="images/webster-risk.jpg" alt="Webster Township contamination risk map" loading="lazy"><span class="project-card-arrow" aria-hidden="true"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+          <div class="project-card-body"><h2>Webster Township Water Contamination Risk</h2><p>A weighted raster overlay identifying low, moderate, and high water contamination risk.</p><span class="project-card-link">View project <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span></div>
+        </a></article>
+
+        <article class="project-card"><a href="projects/edenville-dam.html">
+          <div class="project-card-image"><img src="images/edenville-dam-thumb.jpg" alt="LiDAR elevation changes after Edenville Dam failure" loading="lazy"><span class="project-card-arrow" aria-hidden="true"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+          <div class="project-card-body"><h2>Elevation Change After the Edenville Dam Failure</h2><p>LiDAR-derived elevation change showing erosion and sedimentation after the 2020 dam failure.</p><span class="project-card-link">View project <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span></div>
+        </a></article>
+
+        <article class="project-card"><a href="projects/capecod-slr.html">
+          <div class="project-card-image"><img src="images/capecod-slr-thumb.jpg" alt="Cape Cod sea level rise scenarios map" loading="lazy"><span class="project-card-arrow" aria-hidden="true"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+          <div class="project-card-body"><h2>Sea Level Rise by 2100 in Cape Cod</h2><p>Low and high sea level rise scenarios for Cape Cod modeled from a digital elevation model.</p><span class="project-card-link">View project <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span></div>
+        </a></article>
+
+        <article class="project-card"><a href="projects/columbiana-sites.html">
+          <div class="project-card-image"><img src="images/columbiana-sites-thumb.jpg" alt="Ecological suitability map of Columbiana County" loading="lazy"><span class="project-card-arrow" aria-hidden="true"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+          <div class="project-card-body"><h2>Ecological Site Suitability in Columbiana</h2><p>Map algebra and ModelBuilder analysis of ecological site suitability in Ohio.</p><span class="project-card-link">View project <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span></div>
+        </a></article>
+
+        <article class="project-card"><a href="projects/green-river.html">
+          <div class="project-card-image"><img src="images/green-river-thumb.jpg" alt="Green River channel changes 1867 to 2022" loading="lazy"><span class="project-card-arrow" aria-hidden="true"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+          <div class="project-card-body"><h2>Green River Channel from 1867 to 2022</h2><p>Digitized historic river channels tracking length and sinuosity change over more than 150 years.</p><span class="project-card-link">View project <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span></div>
+        </a></article>
+
+        <!--article class="project-card"><a href="projects/stinchfield-lc.html">
+          <div class="project-card-image"><img src="images/stinchfield-lc-thumb.jpg" alt="Stinchfield Woods land cover classification map" loading="lazy"><span class="project-card-arrow" aria-hidden="true"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+          <div class="project-card-body"><h2>Stinchfield Woods Land Cover</h2><p>Interpreting aerial and satellite imagery to digitize and classify Michigan forest land cover.</p><span class="project-card-link">View project <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span></div>
+        </a></article-->
       </div>
-
-      <div class="project-card">
-        <a href="projects/green-river.html">
-          <img src="images/green-river-thumb.jpg" alt="Green River Channel">
-          <h3>Green River Channel from 1867 to 2022</h3>
-        </a>
-      </div>
-
-      <!-- <div class="project-card">
-        <a href="projects/stinchfield-lc.html">
-          <img src="images/stinchfield-lc-thumb.jpg" alt="Stinchfield Land Cover">
-          <h3>Stinchfield Woods Land Cover</h3>
-        </a>
-      </div> -->
-  </section>
-
-  <footer>
-    <p>&copy; Copyright 2025, Karen Wang</p>
-  </footer>
-
+    </section>
+  </main>
+  <footer class="home-footer"><p>&copy; 2026 Karen Wang</p></footer>
 </body>
 </html>
